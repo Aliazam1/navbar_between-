@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+a,p,li,button{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: .2em;
+    font-weight: bold;
+}
+.nav_link li{
+    list-style: none;
+    display: inline-block;
+}
+.nav_link li a{
+    margin: 10px;
+    transition: all .3s ease 0s;
+
+}
+.nav_link li a:hover{
+    color: rgb(228, 20, 20);
+    font-weight: bold;
+    
+}
+ 
+button{
+    border: none;
+    background-color: rgb(223, 51, 51);
+    margin-right: 20px;
+    padding: 6px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: all .3s ease 0s;
+
+}
+button:hover{
+    background-color: rgb(151, 137, 173);
+}
